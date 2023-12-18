@@ -1,0 +1,145 @@
+/* Updated styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('snow.svg'); /* Replace with your SVG file path */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #002fff;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.main-photo {
+    max-width: 80%; /* Adjust the maximum width of the main photo as needed */
+    margin: 0 auto 40px; /* Center the main photo horizontally and add more bottom margin */
+}
+
+
+.main-photo img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.main-photo figcaption {
+    margin-top: 10px;
+    color: #555;
+    font-style: italic;
+}
+
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photo-grid figure {
+    flex: 0 0 calc(33.33% - 20px); /* 3 columns with 20px spacing between */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.photo-grid img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.photo-grid figcaption {
+    margin-top: 5px;
+    color: #555;
+    font-style: italic;
+    text-align: center;
+}
+
+.photo-grid img:hover {
+    transform: scale(1.1);
+}
+
+/* Additional styles for the form can be added as needed */
+
+.contact-form {
+    max-width: 600px; /* Adjust the maximum width of the form as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ddd; /* Add a border for visual separation */
+    border-radius: 8px;
+}
+
+.contact-form h2 {
+    text-align: center;
+}
+
+.contact-form form {
+    display: grid;
+    gap: 10px;
+}
+
+.contact-form label {
+    display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Additional styles for the form can be added as needed */
